@@ -1,0 +1,4 @@
+import { html } from 'lit-element';
+
+export const svgHamburger = html`<svg class="svghamburger" id="menuIcon" height="24" viewBox="0 0 24 24" width="24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>`;
+export const svgSearch = html`<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1"><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><ellipse id="Oval" stroke="#000000" stroke-width="3" cx="9" cy="9" rx="7.5" ry="7.5"></ellipse><path d="M15,15 L22.7673473,22.7673473" id="Path" stroke="#000000" stroke-width="3"></path><ellipse id="Oval" stroke="#FFFFFF" stroke-width="3" cx="9" cy="9" rx="7.5" ry="7.5"></ellipse><path d="M15,15 L22.7673473,22.7673473" id="Path" stroke="#FFFFFF" stroke-width="3"></path></g></svg>`;

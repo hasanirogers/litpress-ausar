@@ -1,0 +1,1 @@
+import '../packages/ausar-app/ausar-app.js';

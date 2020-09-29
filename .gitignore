@@ -1,0 +1,28 @@
+# WordPress
+/wp-admin
+/wp-includes
+/wp-content/index.php
+/wp-content/plugins
+/wp-content/upgrade
+/wp-content/uploads
+/wp-content/themes/ausar/bundles
+/wp-content/themes/ausar/vendor
+index.php
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+
+# Others
+/node_modules
+ausar.settings.json
+package-lock.json

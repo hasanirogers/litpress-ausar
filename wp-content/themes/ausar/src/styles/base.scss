@@ -1,0 +1,21 @@
+html {
+  --color-white: #f8f8f8;
+  --color-black: #000;
+  --color-link: #1d76c4;
+  --color-background: #030303;
+
+  --nav-width: 1440px;
+  --nav-height: 75px;
+  --content-width: 1024px;
+}
+
+body {
+  font: 16px 'Noto Sans', sans-serif;
+  color: var(--color-white);
+  margin: 0;
+  background-color: var(--color-background);
+  background-repeat: no-repeat;
+  background-image: url('../../screenshot.png');
+  background-position: bottom center;
+  background-attachment: fixed;
+}

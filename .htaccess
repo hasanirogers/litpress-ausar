@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+    # enable rewriting
+    RewriteEngine on
+
+    # don't rewrite files that exist in the file system
+    RewriteCond %{REQUEST_FILENAME} !-f
+
+    # don't rewrite directories that exist in the file system
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # rewrite the request to index.php
+    RewriteRule ^ index.php [QSA,L]
+</IfModule>

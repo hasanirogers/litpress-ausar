@@ -1,0 +1,66 @@
+{
+  "name": "ausar",
+  "version": "1.0.0",
+  "description": "It's the world's first LitElement + WordPress theme.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --watch --mode=development",
+    "build": "webpack --mode=production",
+    "stylelint": "npx stylelint 'wp-content/themes/**/*.scss'",
+    "eslint": "eslint --ext .js,.html wp-content/themes/ausar/src/packages/** --ignore-path .gitignore",
+    "prettier": "prettier \"wp-content/themes/ausar/src/packages/**/*.js\" --check --ignore-path .gitignore"
+  },
+  "license": "MIT",
+  "prettier": {
+    "singleQuote": true,
+    "arrowParens": "avoid"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not IE_Mob 11",
+    "maintained node versions"
+  ],
+  "dependencies": {
+    "@babel/polyfill": "7.4.3",
+    "@kemet/kemet-drawer": "1.2.2",
+    "@vaadin/router": "1.7.2",
+    "@webcomponents/webcomponentsjs": "2.4.0",
+    "lit-element": "2.0.0",
+    "lit-html": "1.0.0",
+    "pwa-helpers": "0.9.1",
+    "workbox-webpack-plugin": "5.1.4"
+  },
+  "devDependencies": {
+    "@babel/core": "7.7.5",
+    "@babel/plugin-proposal-class-properties": "7.10.4",
+    "@babel/plugin-syntax-dynamic-import": "7.7.4",
+    "@babel/plugin-syntax-object-rest-spread": "7.7.4",
+    "@babel/preset-env": "7.7.6",
+    "@open-wc/eslint-config": "2.0.0",
+    "autoprefixer": "9.8.6",
+    "babel-loader": "8.0.6",
+    "babel-preset-env": "1.7.0",
+    "browser-sync": "2.26.12",
+    "browser-sync-webpack-plugin": "2.2.2",
+    "copy-webpack-plugin": "4.6.0",
+    "css-loader": "1.0.1",
+    "debug": "2.2.0",
+    "eslint": "7.10.0",
+    "eslint-config-prettier": "6.11.0",
+    "fast-async": "6.3.8",
+    "file-loader": "6.1.0",
+    "mini-css-extract-plugin": "0.4.4",
+    "node-sass": "4.14.1",
+    "postcss-loader": "4.0.2",
+    "prettier": "2.0.4",
+    "regenerator-runtime": "0.13.3",
+    "sass-loader": "7.1.0",
+    "stylelint": "9.8.0",
+    "stylelint-config-sass-guidelines": "5.2.0",
+    "stylelint-webpack-plugin": "0.10.5",
+    "url-loader": "4.1.0",
+    "webpack": "4.41.2",
+    "webpack-cli": "3.3.12"
+  }
+}
